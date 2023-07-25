@@ -1,0 +1,24 @@
+theme = "tokyonight"
+[editor]
+auto-save=true
+bufferline="multiple"
+line-number="relative"
+
+[editor.lsp]
+display-messages=true
+
+[editor.file-picker]
+hidden=true
+
+[editor.cursor-shape]
+insert="bar"
+normal="block"
+select="underline"
+
+[editor.whitespace.render]
+space="all"
+tab="all"
+newline="none"
+
+[keys.insert]
+j={k="normal_mode"}

@@ -1,0 +1,8 @@
+
+instance_timeout=300
+gc_interval=10
+
+listen = ["127.0.0.1", 27800]
+connect = ["127.0.0.1", 27800]
+
+log_filters="info"

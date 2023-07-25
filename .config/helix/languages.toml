@@ -1,0 +1,5 @@
+[[language]]
+name = "rust"
+file-types = ["rs"]
+indent = {tab-width=2, unit=""}
+language-server = { command="ra-multiplex", args=["client"]}

@@ -1,0 +1,52 @@
+format = """
+[](#eb4934)\
+$os\
+$username\
+$directory\
+(fg:#eb4934)\
+$git_branch\
+(fg:#eb4934)\
+$git_status\
+[](fg:#eb4934)
+$c\
+$elixir\
+$elm\
+$golang\
+$gradle\
+$haskell\
+$java\
+$julia\
+$nodejs\
+$nim\
+$rust\
+$scala\
+"""
+[os]
+style = "bg:#9A348E"
+disabled=true
+
+[directory]
+style="bg:#eb4934"
+format="[ $path ]($style)"
+truncation_length=1
+
+[git_branch]
+symbol = ""
+style = "bg:#eb4934"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#eb4934"
+format = '[$all_status$ahead_behind ]($style)'
+
+[rust]
+disabled=true
+
+[c]
+disabled=true
+
+[java]
+disabled=true
+
+[time]
+disabled=true
