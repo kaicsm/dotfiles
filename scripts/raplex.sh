@@ -5,7 +5,6 @@ exit_code=$?
 
 # verifica se a porta não está iniciada
 if [ $exit_code -eq 0 ]; then
-  # se estiver:
-  # iniciar o servidor
+  # então inicar o ra-multiplex 
   ra-multiplex server &
 fi
