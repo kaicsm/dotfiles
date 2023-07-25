@@ -1,1 +1,1 @@
-## My setup for rust programming with helix editor
+## My setup for programming with helix editor
